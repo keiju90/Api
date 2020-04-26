@@ -1,8 +1,7 @@
 # ApiGrupp
 Grupparbete Api
 
-##### 
-HTTP Protocol Basics
+##### HTTP Protocol Basics
 Request response model:
 Request message
 Resources identified using a Universal Resource Identifier (URI)
@@ -13,7 +12,7 @@ Response code
 Headers och Body
 
 
-###HTTP status codes
+### HTTP status codes
 ##### 1xx - Informational 
 ##### 2xx - Success - 201 Created 
 ##### 3xx - Redirection
