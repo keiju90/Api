@@ -117,8 +117,8 @@ curl -i -H "Content-Type:application/json" http://api.softhouse.rocks/posts/1
 #### Via: 1.1 google - The Via general header is added by proxies, both forward and reverse proxies, and can appear in the request headers and the response headers. It is used for tracking message forwards, avoiding request loops, and identifying the protocol capabilities of senders along the request/response chain.
 
 
-## 
-### curl -H GET  http://api.softhouse.rocks/users/3 | jq
+## GET 
+#### curl -H GET  http://api.softhouse.rocks/users/3 | jq
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
 100   271  100   271    0     0    872      0 --:--:-- --:--:-- --:--:--   871
@@ -141,10 +141,10 @@ curl -i -H "Content-Type:application/json" http://api.softhouse.rocks/posts/1
   "__v": 0
 }
 
-## curl -X GET "https://api.softhouse.rocks/posts?userId=1" -H "accept: application/json"
+#### curl -X GET "https://api.softhouse.rocks/posts?userId=1" -H "accept: application/json"
 
 
-## curl -X GET "https://api.softhouse.rocks/posts?userId=1" -H "accept: application/json" | JQ
+#### curl -X GET "https://api.softhouse.rocks/posts?userId=1" -H "accept: application/json" | JQ
 {
     "_id": "5ea068b63636b200261814cd",
     "body": "Fresh as morning dew",
@@ -155,7 +155,7 @@ curl -i -H "Content-Type:application/json" http://api.softhouse.rocks/posts/1
   }
 
 
-##### 
+## POST
 1. curl -X POST "https://api.softhouse.rocks/posts" -H  "accept: application/json" -H  "Content-Type: application/json" -d "{\"title\":\"SweetApi\",\"body\":\"Rostbiff\",\"userId\":3}"
 
 // Result: 
@@ -272,4 +272,4 @@ RESPONSE (PICKED POST 853):
   3. CHECK TO SEE IF DELETED:
   curl -X GET "https://api.softhouse.roc" -H "accept: application/json"|jq
   
-  ## id 853 is missing! wohoo
+  id 853 is missing! wohoo
