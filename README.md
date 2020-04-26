@@ -2,10 +2,10 @@
 Grupparbete Api
 
 ##### HTTP Protocol Basics
-## Request response model:
-## Request message
-Resources identified using a Universal Resource Identifier (URI)
-Request Method
+##### Request response model:
+#### Request message
+#### Resources identified using a Universal Resource Identifier (URI)
+#### Request Method
 Headers, Body, query
 Response 
 Response code
