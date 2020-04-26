@@ -27,7 +27,7 @@ Grupparbete Api
 ##### 3. POST   /posts..........Creat a new Post Ex Webb form
 ##### 4. PUT    /posts/{postId} Replace a Post
 ##### 5. PATCH  /posts/{postID} Update a Post
-##### 6. DELETE /posts/{postId} Delete a Post.
+##### 6. DELETE /posts/{postId} Delete a Post
 
 
 
