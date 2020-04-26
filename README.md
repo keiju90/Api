@@ -101,30 +101,20 @@ Post{
 title	string
 body	string
 userId	integer
- 
 }
 
 ## 
 curl -i -H "Content-Type:application/json" http://api.softhouse.rocks/posts/1
 
 ## Request response model:
- 
-
-Access-Control-Allow-Origin: *
-Content-Type: application/json; charset=utf-8
-Content-Length: 316
-ETag: W/"13c-iqD6A3ivz4dRZ1d/uIZLXBts6BU"
-Date: Tue, 21 Apr 2020 08:28:50 GMT
-Via: 1.1 google
-
 #### HTTP/1.1 200 OK - Statuscode 200 OK.
 #### X-Powered-By: Express - It tells the browser that the application is powered by Express (should you wish to look at that in chrome dev tools). Express is a server side framework. https://www.reddit.com/r/node/comments/3k9ij6/does_anyone_know_what_the_xpoweredby_express_is/
-## The Access-Control-Allow-Origin response header indicates whether the response can be shared with requesting code from the given origin. For requests without credentials, the literal value "*" can be specified, as a wildcard; the value tells browsers to allow requesting code from any origin to access the resource. Attempting to use the wildcard with credentials will result in an error.
-## Content-type: application/json; charset=utf-8 designates the content to be in JSON format, encoded in the UTF-8 character encoding.
-## Content-Length: 316 posts. Is used to indicate the size of the entire body. The content-length is the size of the compressed message body, in "octets". 
-## The ETag or entity tag is part of HTTP, the protocol for the World Wide Web. It is one of several mechanisms that HTTP provides for Web cache validation. 
-## Date
-## The Via general header is added by proxies, both forward and reverse proxies, and can appear in the request headers and the response headers. It is used for tracking message forwards, avoiding request loops, and identifying the protocol capabilities of senders along the request/response chain.
+#### Access-Control-Allow-Origin: * - The Access-Control-Allow-Origin response header indicates whether the response can be shared with requesting code from the given origin. For requests without credentials, the literal value "*" can be specified, as a wildcard; the value tells browsers to allow requesting code from any origin to access the resource. Attempting to use the wildcard with credentials will result in an error.
+#### Content-Type: application/json; charset=utf-8 - Content-type: application/json; charset=utf-8 designates the content to be in JSON format, encoded in the UTF-8 character encoding.
+#### Content-Length: 316 - Is used to indicate the size of the entire body. The content-length is the size of the compressed message body, in "octets". 
+#### ETag: W/"13c-iqD6A3ivz4dRZ1d/uIZLXBts6BU" - The ETag or entity tag is part of HTTP, the protocol for the World Wide Web. It is one of several mechanisms that HTTP provides for Web cache validation. 
+#### Date: Tue, 21 Apr 2020 08:28:50 GMT Date
+#### Via: 1.1 google - The Via general header is added by proxies, both forward and reverse proxies, and can appear in the request headers and the response headers. It is used for tracking message forwards, avoiding request loops, and identifying the protocol capabilities of senders along the request/response chain.
 
 
 ## 
