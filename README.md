@@ -1,6 +1,7 @@
 # ApiGrupp
 Grupparbete Api
 
+
 ### HTTP Protocol Basics
 ##### Request response model:
 ##### Request message
@@ -26,7 +27,9 @@ Grupparbete Api
 ##### 3. POST   /posts..........Creat a new Post Ex Webb form
 ##### 4. PUT    /posts/{postId} Replace a Post
 ##### 5. PATCH  /posts/{postID} Update a Post
-##### 6. DELETE /posts/{postId} Delete a Post
+##### 6. DELETE /posts/{postId} Delete a Post.
+
+
 
 ### Endpoints Example
  ##### 1. GET     https://name.com/api/users
@@ -41,11 +44,13 @@ Grupparbete Api
 2. curl https://api.github.com/?access_token=OAUTH-TOKEN in URI
 3. curl 'https://api.github.com/users/whatever?client_id=xxxx&client_secret=yyyy'
 
+
 #### -i, --include       Include protocol headers in the output (H/F)
 #### -H, --header LINE   Pass custom header LINE to server (H)
 #### -X  --request COMMAND  Specify request command to use
 
-##### Request: -> 
+
+#### Request: -> 
 curl -X GET "https://api.softhouse.rocks/posts?userId=1" -H  "accept: application/json" | jq
 
 #### Respons: 
@@ -54,6 +59,7 @@ https://api.softhouse.rocks/posts?userId=1
 #### Response headers:
 content-type: application/json; charset=utf-8 
 (when the server responds, it sends information back).
+
 
 #### Part of a Respons
 {
