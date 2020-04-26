@@ -9,7 +9,7 @@ Grupparbete Api
 ##### Headers, Body, query
 ##### Response 
 ##### Response code
-##### Headers och Body
+##### Headers och Body. 
 
 
 ### HTTP status codes
