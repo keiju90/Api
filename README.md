@@ -1,15 +1,15 @@
 # ApiGrupp
 Grupparbete Api
 
-##### HTTP Protocol Basics
+### HTTP Protocol Basics
 ##### Request response model:
-#### Request message
-#### Resources identified using a Universal Resource Identifier (URI)
-#### Request Method
-Headers, Body, query
-Response 
-Response code
-Headers och Body
+##### Request message
+##### Resources identified using a Universal Resource Identifier (URI)
+##### Request Method
+##### Headers, Body, query
+##### Response 
+##### Response code
+##### Headers och Body
 
 
 ### HTTP status codes
@@ -21,26 +21,19 @@ Headers och Body
 
 
 ### Vi använder oss av http://api.softhouse.rocks 
-##### 
-1. GET    /posts..........List of Posts 
-##### 
-2. GET    /posts/{postId} Get a Post specified resource
-##### 
-3. POST   /posts..........Creat a new Post Ex Webb form
-##### 
-4. PUT    /posts/{postId} Replace a Post
-##### 
-5. PATCH  /posts/{postID} Update a Post
-##### 
-6. DELETE /posts/{postId} Delete a Post
+##### 1. GET    /posts..........List of Posts 
+##### 2. GET    /posts/{postId} Get a Post specified resource
+##### 3. POST   /posts..........Creat a new Post Ex Webb form
+##### 4. PUT    /posts/{postId} Replace a Post
+##### 5. PATCH  /posts/{postID} Update a Post
+##### 6. DELETE /posts/{postId} Delete a Post
 
 ### Endpoints Example
-
- 1. GET     https://name.com/api/users
- 2. GET     https://name.com/api/users/1 or https://name.com/api/users/details/1
- 3. POST    https://name.com/api/users
- 4. PUT     https://name.com/api/users/1 or https://name.com/api/users/uppdate/1
- 5. DELETE  https://name.com/api/users/1 or https://name.com/api/users/delete/1
+ ##### 1. GET     https://name.com/api/users
+ ##### 2. GET     https://name.com/api/users/1 or https://name.com/api/users/details/1
+ ##### 3. POST    https://name.com/api/users
+ ##### 4. PUT     https://name.com/api/users/1 or https://name.com/api/users/uppdate/1
+ ##### 5. DELETE  https://name.com/api/users/1 or https://name.com/api/users/delete/1
 
 
 ### Authentication github´s API developer/github.com
